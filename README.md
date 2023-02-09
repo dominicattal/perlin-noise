@@ -1,5 +1,6 @@
 # Perlin-Noise
-My implementation of Perlin Noise
+My implementation of Perlin Noise using SFML.
+
 ![image](https://user-images.githubusercontent.com/103447109/217922232-ef7684d7-d1aa-4323-bb9f-98a9e693a886.png)
 Here is my implementation of the standard Perlin Noise algorithm. It is closely related to wikipedia's definition of noise: https://en.wikipedia.org/wiki/Perlin_noise
 The interpolation function used for calculating the weights at each pixel was (x * (x * 6.0 - 15.0) + 10.0) * x * x * x, which produces a smooth gradient from x = 0 to x = 1
